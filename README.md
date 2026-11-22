@@ -21,3 +21,20 @@ Si `py` no existe, sustituirlo por `python`. La ejecución mediante `.venv\Scrip
 Seguir `GUIA_GIT.md`. Este ZIP no contiene `.git`, para que cada alumno inicialice su propio repositorio.
 
 Este proyecto utiliza Regresión Logística, Random Forest y SVM. 
+
+Support Vector Machine (SVM) — Máquinas de Vectores de Soporte
+
+El algoritmo Support Vector Machine (SVM) es un método de aprendizaje supervisado utilizado para resolver problemas de clasificación y regresión. En este proyecto se utilizará su variante de regresión, denominada Support Vector Regression (SVR), para predecir la calificación promedio (vote_average) de una película a partir de sus características.
+
+Se utilizará el dataset 
+The Movies Dataset
+ de Kaggle, que contiene información de aproximadamente 45.000 películas, incluyendo géneros, presupuesto, duración, popularidad, fecha de estreno e información sobre las votaciones. 
+
+SVR busca encontrar una función que permita estimar los valores de la variable objetivo minimizando el error de predicción, utilizando un margen de tolerancia. Mediante diferentes funciones kernel puede modelar relaciones lineales y no lineales entre las características de las películas y sus calificaciones.
+
+En este proyecto, el algoritmo utilizará variables como el presupuesto, la duración, el año de estreno y los géneros cinematográficos para estimar la calificación promedio que podría obtener una película.
+
+Tipo de aprendizaje: Supervisado.
+Tipo de problema: Regresión.
+Variable objetivo: vote_average (calificación promedio de la película).
+Algoritmo: Support Vector Regression (SVR).
