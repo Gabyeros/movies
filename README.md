@@ -1,6 +1,7 @@
-# Telco Customer Churn — práctica de Git
+# Movies — práctica de Git
 
-**Nota sobre datos:** `data/telco_demo.csv` es un dataset **sintético**, con columnas inspiradas en Telco Customer Churn. No es una copia de Kaggle ni contiene datos de clientes reales. Se incluye para que la práctica funcione sin descargar nada. Para las prácticas posteriores se puede sustituir por el dataset real de Kaggle, revisando nombres y esquema.
+Este proyecto consiste en implementar un flujo completo de MLOps (Machine Learning Operations) para predecir si una película será un éxito o un fracaso comercial y de crítica (clasificando como exitosa si su calificación promedio vote_average es mayor o igual a 7.0), utilizando datos históricos de The Movies Dataset (presupuesto, duración, año de estreno, idioma y género).
+Más allá de entrenar tres modelos de aprendizaje supervisado (Regresión Logística, Random Forest y SVM), el objetivo principal del proyecto es aplicar herramientas estándar de la industria para llevar el modelo desde el código hasta producción: Git y GitHub para el control de versiones del código, DVC para versionar los datasets, MLflow para registrar experimentos y elegir el mejor modelo (Champion), Apache Airflow para automatizar el flujo de entrenamiento, FastAPI + HTML para desplegar una interfaz web de predicción, Docker y GitHub Actions para empaquetar y publicar la aplicación automáticamente, y Evidently AI para monitorear que el rendimiento del modelo no se degrade con datos nuevos.
 
 ## Requisitos
 - Windows con Python 3.10+ y Git instalados.
