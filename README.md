@@ -43,3 +43,5 @@ Tipo de problema: Regresión.
 Variable objetivo: vote_average (calificación promedio de la película).
 Algoritmo: Support Vector Regression (SVR).
 >>>>>>> feature/svm
+
+Modelo principal: Random Forest
