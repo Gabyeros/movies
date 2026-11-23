@@ -51,3 +51,5 @@ Definicione:
 • Precision (Precisión): De todos los casos que el modelo predijo como positivos (ej. películas exitosas), qué porcentaje realmente lo fue (mide qué tanto evita falsas alarmas).
 • Recall (Exhaustividad): De todos los casos positivos que existen en la realidad, qué porcentaje logró detectar el modelo (mide qué tanto evita dejar escapar aciertos).
 • F1-score: Media armónica entre Precision y Recall (va de 0 a 1); resume ambas métricas en un solo valor equilibrado, ideal cuando los datos están desbalanceados.
+
+Resultados del proyecto (Carpeta clonada)
